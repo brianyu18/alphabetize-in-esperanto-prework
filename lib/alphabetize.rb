@@ -4,7 +4,7 @@ def alphabetize(arr)
     taco = word.split("").map do |character|
       esperanto_alphabet.index (character)
     end
-    puts taco
+    p taco
     taco
   end
 end
